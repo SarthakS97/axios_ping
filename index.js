@@ -8,4 +8,4 @@ setInterval(function() {
   axios.get(url)
     .then(response => console.log(response.data))
     .catch(error => console.error(error));
-}, 9000); // 5 minutes in milliseconds
+}, 840000); // 15 minutes in milliseconds
